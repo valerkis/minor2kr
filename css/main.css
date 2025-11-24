@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(238, 217, 207);
+}
+
+h1 {
+  font-family: "Geologica_Regular";
+  font-size: 4vw;
+  color: rgb(77, 53, 40);
+  padding: 2vw;
+}
+
+h2 {
+  font-family: "Geologica_Regular";
+  font-size: 3vw;
+  color: rgb(98, 69, 52);
+  padding: 1vw;
+}
+
+h4 {
+  font-family: "Geologica_Regular";
+  font-size: 2vw;
+  color: rgb(137, 96, 73);
+  padding: 1vw;
+}
+
+input {
+  background-color: #fffdf9;
+  border: solid 0.2vw rgb(98, 69, 52);
+}
+
+form,
+.care_sec {
+  padding: 0vw 2vw 2vw 2vw;
+}
+
+p,
+a,
+li {
+  font-family: "Geologica_Light";
+  font-size: 1.5vw;
+  color: rgb(74, 51, 39);
+  margin: 1vw;
+}
+
+li:hover {
+  background-color: rgb(255, 252, 248);
+}
+
+#current_page {
+  background-color: rgba(255, 255, 255, 0.795);
+}
+
+#cat {
+  display: flex;
+  justify-self: center;
+}
+
+ol,
+ul {
+  margin-left: 2vw;
+}
+
+input[type="text"],
+[type="number"],
+[type="checkbox"],
+[type="date"],
+textarea,
+.trait {
+  font-family: "Geologica_Light";
+  font-size: 1.2vw;
+  color: rgb(47, 47, 47);
+}
+
+.txtarea {
+  width: 20vw;
+  margin-left: 1vw;
+}

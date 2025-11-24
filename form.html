@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Паспорт котика</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Паспорт котика</h1>
+    <ul>
+      <li><a href="index.html" target="_main">Главная</a></li>
+      <li><a href="breeds.html" target="_blank">Породы</a></li>
+      <li>
+        <a id="current_page" href="form.html" target="_blank">Паспорт котика</a>
+      </li>
+      <li><a href="care.html#play" target="_blank">Уход и питание</a></li>
+    </ul>
+
+    <body>
+      <h1>Форма</h1>
+
+      <form
+        action="https://www.bing.com/search?"
+        method="get"
+        name="CatPassport"
+        target="_blank"
+      >
+        <input type="hidden" name="q" value="cat passport search" />
+
+        <p>Имя котика: <input type="text" name="cat_name" value="Барсик" /></p>
+
+        <p>
+          Возраст (в годах): <input type="number" name="cat_age" value="3" />
+        </p>
+
+        <p>
+          Порода:
+          <input type="text" name="cat_breed" value="Сфинкс" />
+        </p>
+
+        <p>
+          Дата рождения:
+          <input type="date" name="birth_date" value="2025-01-01" />
+        </p>
+
+        <p>
+          Пол: <input type="radio" name="cat_gender" value="male" checked /> Кот
+          <input type="radio" name="cat_gender" value="female" /> Кошка
+        </p>
+
+        <p>Особенности характера:</p>
+        <input type="checkbox" name="trait_playful" value="1" checked />
+        <span class="trait">Игривый</span>
+        <input type="checkbox" name="trait_lazy" value="2" />
+        <span class="trait">Ленивый</span>
+
+        <input type="checkbox" name="trait_cuddly" value="3" />
+        <span class="trait">Ласковый</span>
+
+        <input type="checkbox" name="trait_grumpy" value="4" />
+        <span class="trait">Вредный</span>
+
+        <p>
+          Пароль для личного кабинета:
+          <input type="password" name="owner_password" value="12345" />
+        </p>
+
+        <p>Комментарий владельца:</p>
+        <textarea class="txtarea" name="cat_comment">
+Любит спать на клавиатуре.</textarea
+        >
+
+        <p>
+          Любимая еда:
+          <select name="cat_food">
+            <option value="fish" selected>Рыба</option>
+            <option value="chicken">Курица</option>
+            <option value="beef">Говядина</option>
+            <option value="other">Другое</option>
+          </select>
+        </p>
+
+        <p>
+          <input type="reset" value="Очистить" />
+          <input type="submit" value="Отправить" />
+        </p>
+      </form>
+    </body>
+  </body>
+</html>
