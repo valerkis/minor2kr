@@ -3,7 +3,6 @@ async function getResponse() {
     const response = await fetch("./data/shop.json");
     const content = await response.json();
 
-    // куда вставлять карточки
     const container = document.getElementById("products");
 
     content.forEach((item) => {

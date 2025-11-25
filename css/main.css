@@ -75,3 +75,13 @@ textarea,
   width: 20vw;
   margin-left: 1vw;
 }
+
+.card {
+  background-color: #fff;
+  color: #333;
+  border-color: #ccc;
+}
+
+.card a {
+  color: #007bff;
+}
