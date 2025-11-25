@@ -1,0 +1,109 @@
+@media only screen and (max-device-width: 767px) {
+  h1 {
+    font-size: 12vw;
+  }
+
+  h2 {
+    font-size: 7vw;
+  }
+
+  p,
+  a,
+  li {
+    font-size: 5vw;
+    margin: 3vw;
+  }
+
+  ol,
+  ul {
+    margin-left: 5vw;
+  }
+
+  #cat {
+    width: 80vw;
+  }
+
+  input[type="text"],
+  [type="number"],
+  [type="checkbox"],
+  [type="date"],
+  textarea,
+  .trait {
+    font-size: 5vw;
+  }
+
+  .txtarea {
+    width: 80vw;
+  }
+
+  #btn-form {
+    position: absolute;
+    width: 90vw;
+  }
+
+  input[type="reset"],
+  [type="submit"] {
+    width: 38vw;
+    height: 10vw;
+    margin: 3vw;
+  }
+
+  .careimg {
+    width: 96vw;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) {
+  h1 {
+    font-size: 6vw;
+  }
+
+  h2 {
+    font-size: 4vw;
+  }
+
+  p,
+  a,
+  li {
+    font-size: 3vw;
+    margin: 1vw;
+  }
+
+  ol,
+  ul {
+    margin-left: 2vw;
+  }
+
+  #cat {
+    width: 80vw;
+  }
+
+  input[type="text"],
+  [type="number"],
+  [type="checkbox"],
+  [type="date"],
+  textarea,
+  .trait {
+    font-size: 3vw;
+  }
+
+  .txtarea {
+    width: 80vw;
+  }
+
+  #btn-form {
+    position: absolute;
+    width: 90vw;
+  }
+
+  input[type="reset"],
+  [type="submit"] {
+    width: 38vw;
+    height: 10vw;
+    margin: 3vw;
+  }
+
+  .careimg {
+    width: 96vw;
+  }
+}

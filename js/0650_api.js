@@ -12,7 +12,7 @@ async function getResponse() {
             <img src="${item.img}" class="card-img-top" alt="${item.title}">
             <div class="card-body d-flex flex-column">
               <h5 class="card-title">${item.title}</h5>
-              <p class="card-text">${item.description}. Цена: ${item.price} р.</p>
+              <p class="card-text">${item.description}.</p>
 
               <input type="hidden" name="vendor_code" value="${item.vendor_code}">
 

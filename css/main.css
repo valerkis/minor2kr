@@ -16,7 +16,9 @@ h2 {
   padding: 1vw;
 }
 
-h4 {
+h4,
+.card-title,
+.form-label {
   font-family: "Geologica_Regular";
   font-size: 2vw;
   color: rgb(137, 96, 73);
@@ -58,6 +60,10 @@ li:hover {
 ol,
 ul {
   margin-left: 2vw;
+}
+
+.careimg {
+  width: 40vw;
 }
 
 input[type="text"],
