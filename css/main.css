@@ -82,6 +82,8 @@ textarea,
   border-color: #ccc;
 }
 
-.card a {
-  color: #007bff;
+#products .card-img-top {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
 }

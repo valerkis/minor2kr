@@ -3,80 +3,70 @@
     "id": "1",
     "title": "Бенгальская",
     "vendor_code": "111",
-    "description": "Описание 1",
-    "price": 100,
+    "description": "Межродовой гибрид домашней кошки и бенгальской кошки.",
     "img": "img/bengal.webp"
   },
   {
     "id": "2",
     "title": "Рэгдолл",
     "vendor_code": "222",
-    "description": "Описание 2",
-    "price": 200,
+    "description": "Кошки могут полностью расслабляться на руках у человека.",
     "img": "img/ragdoll.webp"
   },
   {
     "id": "3",
     "title": "Сфинкс",
     "vendor_code": "333",
-    "description": "Описание 3",
-    "price": 300,
+    "description": "Одна из нескольких бесшёрстных пород кошек.",
     "img": "img/sphynx.jpg"
   },
   {
     "id": "4",
     "title": "Абиссинская",
     "vendor_code": "444e",
-    "description": "Описание 4",
-    "price": 400,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/uso_004.jpg"
+    "description": "Абиссинская — одна из самых древних пород кошек.",
+    "img": "img/abyss.webp"
   },
   {
     "id": "5",
     "title": "Тайская",
     "vendor_code": "4445e",
-    "description": "Описание 6",
-    "price": 400,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/uso_005.jpg"
+    "description": "Характер тайских кошек мягкий, дружелюбный.",
+    "img": "img/thai.webp"
   },
   {
     "id": "6",
     "title": "Русская голубая",
     "vendor_code": "4446e",
-    "description": "Описание 6",
-    "price": 400,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_1.png"
+    "description": "Загадочная и удивительная кошка с роскошной серебристой шерстью",
+    "img": "img/russian.webp"
   },
   {
     "id": "7",
     "title": "Британская",
     "vendor_code": "4447e",
-    "description": "Описание 7",
-    "price": 700,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_2.png"
+    "description": "Согласно легенде, являются потомками Чеширского кота.",
+    "img": "img/british.webp"
   },
   {
     "id": "8",
     "title": "Ангорская",
     "vendor_code": "4448e",
-    "description": "Описание 8",
-    "price": 800,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_3.png"
+    "description": "Элегантная некрупная гибкая кошка с головой средней длины.",
+    "img": "img/angora.webp"
   },
   {
     "id": "9",
     "title": "Мейн-кун",
     "vendor_code": "444e",
-    "description": "Описание 9",
-    "price": 400,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_4.png"
+    "description": "Аборигенная порода кошек Северной Америки.",
+    "img": "img/mein-kun.webp"
   },
   {
     "id": "10",
     "title": "Сибирская",
     "vendor_code": "44410e",
-    "description": "Описание 10",
-    "price": 900,
-    "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_5.png"
+    "description": "Сибирская кошка имеет густую шерсть, уши среднего размера, пушистый хвост.",
+    "img": "img/sybirean.webp"
   }
 ]
